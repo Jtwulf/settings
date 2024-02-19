@@ -88,6 +88,13 @@ NeoBundleCheck
 " End Neobundle Settings.
 "-------------------------
 
+"括弧等の自動補完
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+
 "NERDTreeのショートカット
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
